@@ -18,7 +18,7 @@ data(){
 },
  mounted() {
      setTimeout(() => {
-         console.log(`the components is now mounted. Lets checkout the git revert`)
+         console.log(`the component is now mounted.`)
          this.showBlock= true;
          this.startTimer();
         
